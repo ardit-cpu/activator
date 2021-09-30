@@ -1,0 +1,112 @@
+
+html{
+
+}
+#java{
+    position: relative;
+    left:-8px;
+    top: -10px;
+    width: 101.3%;
+    height: 10cm;
+    background: linear-gradient(to right, #f25022,#7fba00,#00a4ef,#ffb900);
+}
+#java h1{
+   background: linear-gradient(to left, #666666,black);
+    position: absolute;
+    left: 250px;
+    top: 2cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    animation: 2s bgd;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#java p{
+    color: white;
+    position: absolute;
+    left:380px;
+    bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    animation: 2s bgda;
+
+}
+@keyframes bgd{
+    from{opacity: 0.0; left: 50px; top: 10px;}
+    to{     opacity: 0.9;  }
+}
+@keyframes bgda{
+    from{opacity: 0.0;}
+100%{opacity: 0.9;}
+}
+.kit{
+    position: relative;
+    position: relative;
+    left:-8px;
+    top: -29px;
+    height: 10cm;
+    width: 101.3%;
+
+    background: #333333;
+}
+.kit h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+#move{
+text-align: center;
+padding-bottom: 50pxe;
+}
+#move input{
+    width: 7cm;
+    background:#7fba00;
+    font-size:20px;
+    border: thick;
+    height: 35px;
+}
+#move button{
+    width: 2cm;
+    background:#f25022 ;
+    font-size:20px;
+    border: thick;
+    height: 35px;
+    cursor: pointer;
+}
+#move #btn{
+    width: auto;
+    cursor: pointer;
+    outline: none;
+}
+#move #btn:hover{
+    background:rgb(1, 170, 52);
+}
+
+.direct{
+    background: rgb(1, 170, 52);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+.direct h1{
+    text-align: center;
+}
+.direct img{
+    border: 1px solid rgb(0, 140, 255);
+    width: 20cm;
+    text-align: center;
+}
+footer{
+    background: rosybrown;
+    text-align: center;
+}
+footer button{
+    width: 50px;
+    height:50px;
+    border-radius: 50% / 50%;
+    font-size: 30px;
+    outline: none;
+    border: thick;
+    cursor: pointer;
+    margin-left: 20px;
+}
